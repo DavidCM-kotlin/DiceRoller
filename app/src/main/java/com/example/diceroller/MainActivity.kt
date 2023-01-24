@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         val resultText: TextView = findViewById(R.id.result_text)
         resultText.text = randomInt.toString()
 //        val resultText: TextView = findViewById(R.id.result_text)
-        resultText.text = "Dice Rolled!"
+//        resultText.text = "Dice Rolled!"
     }
 
     private fun countDice() {
