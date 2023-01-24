@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         val randomInt = (1..6).random()
         val resultText: TextView = findViewById(R.id.result_text)
         resultText.text = randomInt.toString()
+//      ULTIMO CAMBIO - 24-01-2023 - 23:16
 //        val resultText: TextView = findViewById(R.id.result_text)
 //        resultText.text = "Dice Rolled!"
     }
